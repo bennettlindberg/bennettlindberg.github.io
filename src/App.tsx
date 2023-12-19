@@ -1,65 +1,11 @@
 import ItemWindow from "./components/ItemWindow";
 import ItemWindowContainer from "./components/ItemWindowContainer";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
     <>
-        <div className="flex flex-col gap-y-3">
-            <div className="flex flex-row gap-x-5 rotate-45">
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-            </div>
-            <div className="flex flex-row gap-x-5 rotate-45 ">
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-            </div>
-            <div className="flex flex-row rotate-45">
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-                <div className="bg-yellow-200 shadow-md rounded-full h-[90px] w-[150px] m-5 "></div>
-            </div>
-        </div>
+        <NavBar></NavBar>
         <ItemWindowContainer>
             <ItemWindow standardWidth="1/3">
                 Hi
