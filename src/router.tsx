@@ -6,12 +6,13 @@ import AboutPage from "./components/AboutPage.tsx";
 import ProjectsPage from "./components/ProjectsPage.tsx";
 import ExperiencePage from "./components/ExperiencePage.tsx";
 import EducationPage from "./components/EducationPage.tsx";
+import ErrorPage from "./components/ErrorPage.tsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
-        //errorElement: <ErrorPage />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 index: true,

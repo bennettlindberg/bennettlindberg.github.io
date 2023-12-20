@@ -13,31 +13,38 @@ export function IconSVG({ icon, color, width, height }: {
                 </svg>
             )
 
-        case "MENU":
+        case "LIGHT_MENU":
             return (
                 <svg className={`${color} ${width} ${height}`} viewBox="0 0 24 24">
-                    <path xmlns="http://www.w3.org/2000/svg" d="M4 6H20M4 12H20M4 18H20" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path xmlns="http://www.w3.org/2000/svg" d="M4 6H20M4 12H20M4 18H20" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+            )
+
+        case "DARK_MENU":
+            return (
+                <svg className={`${color} ${width} ${height}`} viewBox="0 0 24 24">
+                    <path xmlns="http://www.w3.org/2000/svg" d="M4 6H20M4 12H20M4 18H20" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             )
 
         case "PLUS":
             return (
                 <svg className={`${color} ${width} ${height}`} viewBox="0 0 24 24">
-                    <path xmlns="http://www.w3.org/2000/svg" d="M6 12H18M12 6V18" stroke="#286018" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path xmlns="http://www.w3.org/2000/svg" d="M6 12H18M12 6V18" stroke="#286018" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             )
 
         case "MINUS":
             return (
                 <svg className={`${color} ${width} ${height}`} viewBox="0 0 24 24">
-                    <path xmlns="http://www.w3.org/2000/svg" d="M6 12L18 12" stroke="#A87229" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path xmlns="http://www.w3.org/2000/svg" d="M6 12L18 12" stroke="#A87229" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             )
 
         case "CROSS":
             return (
                 <svg className={`${color} ${width} ${height}`} viewBox="0 0 24 24">
-                    <path xmlns="http://www.w3.org/2000/svg" d="M6 6L18 18M18 6L6 18" stroke="#6B130B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path xmlns="http://www.w3.org/2000/svg" d="M6 6L18 18M18 6L6 18" stroke="#6B130B" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             )
 
