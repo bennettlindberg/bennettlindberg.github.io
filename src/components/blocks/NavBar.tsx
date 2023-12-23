@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { IconSVG } from "./IconSVG";
-import { AppContext } from "../App";
+import { AppContext } from "../../App";
 
 export default function NavBar({ pageType }: {
     pageType: "home" | "about" | "projects" | "experience" | "education"
@@ -132,8 +132,8 @@ export default function NavBar({ pageType }: {
 
     return (
         <>
-            <div className="relative">
-                <div className={`bg-gradient-to-b ${colorProperties.background} bg-opacity-75 rounded-xl shadow-2xl dark:shadow-gray-900 flex flex-row gap-x-5 m-5 justify-between`}>
+            <div className="relative animate-fade-in">
+                <div className={`bg-gradient-to-b ${colorProperties.background} bg-opacity-75 dark:bg-opacity-75 rounded-xl shadow-2xl dark:shadow-gray-900 flex flex-row gap-x-5 m-5 justify-between`}>
                     <div className={`bg-gradient-to-tr ${colorProperties.buttons} rounded-xl p-3 shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/")}>
                         <IconSVG icon="LOGO" color="fill-white dark:fill-black" width="w-[40px]" height="h-[40px]" />
                     </div>

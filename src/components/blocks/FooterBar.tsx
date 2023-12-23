@@ -18,8 +18,8 @@ export default function FooterBar() {
     if (window.innerWidth >= 1200) {
         return (
             <>
-                <div className="relative">
-                    <div className="bg-zinc-100 dark:bg-zinc-900 bg-opacity-75 rounded-xl shadow-2xl dark:shadow-gray-900 flex flex-row gap-x-5 m-5 p-2 justify-between">
+                <div className="relative animate-fade-in">
+                    <div className="bg-zinc-100 dark:bg-zinc-900 bg-opacity-75 dark:bg-opacity-75 rounded-xl shadow-2xl dark:shadow-gray-900 flex flex-row gap-x-5 m-5 p-2 justify-between">
                         <div className="flex flex-row gap-x-5 items-center text-black dark:text-white">
                             <div className="font-normal text-md text-black dark:text-white">
                                 Created by Bennett Lindberg

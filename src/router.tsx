@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import App from "./App.tsx";
-import HomePage from "./components/HomePage.tsx";
-import AboutPage from "./components/AboutPage.tsx";
-import ProjectsPage from "./components/ProjectsPage.tsx";
-import ExperiencePage from "./components/ExperiencePage.tsx";
-import EducationPage from "./components/EducationPage.tsx";
-import ErrorPage from "./components/ErrorPage.tsx";
+import HomePage from "./components/pages/HomePage.tsx";
+import AboutPage from "./components/pages/AboutPage.tsx";
+import ProjectsPage from "./components/pages/ProjectsPage.tsx";
+import ExperiencePage from "./components/pages/ExperiencePage.tsx";
+import EducationPage from "./components/pages/EducationPage.tsx";
+import ErrorPage from "./components/pages/ErrorPage.tsx";
 
 const router = createBrowserRouter([
     {

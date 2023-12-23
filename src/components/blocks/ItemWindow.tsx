@@ -66,7 +66,7 @@ export default function ItemWindow(
 
     return (
         <>
-            <div className={`text-black dark:text-white bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-900 dark:hover:bg-zinc-800 bg-opacity-75 rounded-xl p-5 shadow-2xl dark:shadow-gray-900 ${windowSizeState.status === "standard" ? standardWidthPropertyStrings[standardWidth] : windowSizeState.propertyString}`}>
+            <div className={`animate-fade-in text-black dark:text-white bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-900 dark:hover:bg-zinc-800 bg-opacity-75 dark:bg-opacity-75 rounded-xl p-5 shadow-2xl dark:shadow-gray-900 ${windowSizeState.status === "standard" ? standardWidthPropertyStrings[standardWidth] : windowSizeState.propertyString}`}>
                 <div className="group flex flex-row gap-x-2 pb-2 w-fit">
                     <div className="flex flex-row justify-center rounded-full h-3 w-3 bg-[#ED6A5E] border-[1px] border-[#df6054]" onClick={() => windowSizeDispatch("close")}>
                         <div className="flex flex-col justify-center invisible group-hover:visible">
