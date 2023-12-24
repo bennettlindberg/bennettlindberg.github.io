@@ -103,8 +103,8 @@ export default function ProjectsPage() {
                         <SubSubHeading>
                             Learn More:
                         </SubSubHeading>
-                        <div className="flex flex-row gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr from-blue-500 to-teal-300 hover:to-blue-500 hover:from-teal-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://swimeeter.com" target="_blank">Live Website</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
@@ -148,7 +148,7 @@ export default function ProjectsPage() {
                         <SubSubHeading>
                             Learn More:
                         </SubSubHeading>
-                        <div className="flex flex-row gap-x-2 mt-2">
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
                             <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://bennettlindberg.com" target="_blank">Live Website</a>
                             </div>
@@ -172,7 +172,7 @@ export default function ProjectsPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            During my time as a teaching assistant with Code Platoon (read more about this on the <span className="hover:font-bold hover:underline" onClick={() => navigate("/experience")}>experience</span> page), I wrote and delivered a lecture on Tailwind CSS to help students style their then-ongoing capstone full-stack website projects. The lecture covers the motivation behind Tailwind, how the technology is used, and the technology's most useful features.
+                            During my time as a teaching assistant with Code Platoon (read more about this on the <span className="hover:font-bold underline" onClick={() => navigate("/experience")}>experience</span> page), I wrote and delivered a lecture on Tailwind CSS to help students style their then-ongoing capstone full-stack website projects. The lecture covers the motivation behind Tailwind, how the technology is used, and the technology's most useful features.
                         </PlainText>
                         <PlainText>
                             The one-hour lecture was delivered virtually to over 30 students and was received positively by the audience. Afterward, approximately 25% of the students adopted Tailwind for use in their capstone projects. Code Platoon now teaches Tailwind as part of their standard full-stack web development curriculum.
@@ -180,8 +180,8 @@ export default function ProjectsPage() {
                         <SubSubHeading>
                             Learn More:
                         </SubSubHeading>
-                        <div className="flex flex-row gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr from-red-500 to-red-300 hover:to-red-500 hover:from-red-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://youtu.be/sE_EaXoxa9g" target="_blank">Video Recording</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
@@ -215,11 +215,11 @@ export default function ProjectsPage() {
                         <SubSubHeading>
                             Learn More:
                         </SubSubHeading>
-                        <div className="flex flex-row gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr from-blue-500 to-teal-300 hover:to-blue-500 hover:from-teal-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href={DTC2TestingReport} target="_blank">Final Report Excerpt</a>
                             </div>
-                            <div className={`font-bold bg-gradient-to-tr from-purple-500 to-violet-300 hover:to-purple-500 hover:from-violet-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication/" target="_blank">Design Thinking and Communication</a>
                             </div>
                         </div>
@@ -250,14 +250,14 @@ export default function ProjectsPage() {
                         <SubSubHeading>
                             Learn More:
                         </SubSubHeading>
-                        <div className="flex flex-row gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-300 hover:to-green-500 hover:from-lime-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href={DTC1Poster} target="_blank">Design Poster</a>
                             </div>
-                            <div className={`font-bold bg-gradient-to-tr from-blue-500 to-teal-300 hover:to-blue-500 hover:from-teal-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href={DTC1TestingReport} target="_blank">Final Report Excerpt</a>
                             </div>
-                            <div className={`font-bold bg-gradient-to-tr from-purple-500 to-violet-300 hover:to-purple-500 hover:from-violet-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://design.northwestern.edu/programs/take-design-course/design-thinking-communication/" target="_blank">Design Thinking and Communication</a>
                             </div>
                         </div>
@@ -292,7 +292,7 @@ export default function ProjectsPage() {
                         <SubSubHeading>
                             Learn More:
                         </SubSubHeading>
-                        <div className="flex flex-row gap-x-2 mt-2">
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://github.com/bennettlindberg/2DGrapher" target="_blank">GitHub Repository</a>
                             </div>
