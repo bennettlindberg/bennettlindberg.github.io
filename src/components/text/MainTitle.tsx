@@ -61,7 +61,7 @@ export default function MainTitle() {
 
     return (
         <>
-            <div className="flex flex-row items-center justify-center text-center font-bold text-xl md:text-3xl lg:text-5xl">
+            <div className="flex flex-row items-center justify-center text-center font-bold text-lg sm:text-xl md:text-3xl lg:text-5xl">
                 {textPhases[currentTextPhase]}
                 <div className="w-[2px] md:w-[3px] lg:w-[4px] h-[20px] md:h-[30px] lg:h-[50px] bg-blue-500 dark:bg-blue-300 animate-cursor-blink"></div>
             </div>

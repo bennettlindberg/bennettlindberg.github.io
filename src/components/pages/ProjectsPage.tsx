@@ -172,7 +172,7 @@ export default function ProjectsPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            During my time as a teaching assistant with Code Platoon (read more about this on the <span className="hover:font-bold underline" onClick={() => navigate("/experience")}>experience</span> page), I wrote and delivered a lecture on Tailwind CSS to help students style their then-ongoing capstone full-stack website projects. The lecture covers the motivation behind Tailwind, how the technology is used, and the technology's most useful features.
+                            During my time as a teaching assistant with Code Platoon (read more about this on the <span className="hover:font-bold underline" onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>experience</span> page), I wrote and delivered a lecture on Tailwind CSS to help students style their then-ongoing capstone full-stack website projects. The lecture covers the motivation behind Tailwind, how the technology is used, and the technology's most useful features.
                         </PlainText>
                         <PlainText>
                             The one-hour lecture was delivered virtually to over 30 students and was received positively by the audience. Afterward, approximately 25% of the students adopted Tailwind for use in their capstone projects. Code Platoon now teaches Tailwind as part of their standard full-stack web development curriculum.

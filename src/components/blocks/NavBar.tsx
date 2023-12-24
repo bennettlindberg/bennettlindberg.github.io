@@ -66,10 +66,10 @@ export default function NavBar({ pageType }: {
     let navContent: React.ReactNode = <></>;
     if (window.innerWidth <= 700) {
         navContent =
-            <div className="flex flex-row gap-x-5 items-center flex-grow justify-center">
+            <div className="flex flex-row gap-x-5 items-center flex-grow justify-center overflow-hidden">
                 {pageType === "home" &&
-                    <div className={`text-xl text-black dark:text-white underline font-bold`} onClick={() => navigate("/")}>
-                        bennettlindberg.com
+                    <div className={`text-xl truncate text-black dark:text-white underline font-bold`} onClick={() => navigate("/")}>
+                        https://bennettlindberg.com
                     </div>
                 }
                 {pageType === "about" &&

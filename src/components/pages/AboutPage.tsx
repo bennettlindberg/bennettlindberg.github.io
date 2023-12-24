@@ -59,7 +59,7 @@ export default function AboutPage() {
                             Hi! I'm Bennett Lindberg, a full-stack software engineer who is passionate about streamlining procedures and improving lives through software. Always enthusiastic about building, designing, dissecting, and fiddling around with what's around me, I am an engineer at heart and a spirited programmer. Currently, I am an undergraduate Computer Science major at Northwestern University in the McCormick School of Engineering.
                         </PlainText>
                         <PlainText>
-                            I enjoy developing software applications for others to use, exploring new programming languages and technologies, and expanding my range of knowledge within the broader computer science field. Outside of computer science and software development, I enjoy solving logic puzzles, playing card games, swimming, talking with friends, and learning new things. I also enjoy learning about geography and have a bucket list of places to which I'd like to travel!
+                            I enjoy developing software applications for others to use, exploring new programming languages and technologies, and expanding my range of knowledge within the broader computer science field. Outside of computer science and software development, I enjoy solving logic puzzles, playing card games, swimming, watching Formula One races, talking with friends, and learning new things. I also enjoy learning about geography and have a bucket list of places to which I'd like to travel!
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
@@ -81,13 +81,13 @@ export default function AboutPage() {
                             Visit the other pages of this site to learn more about myself or view my GitHub profile!
                         </PlainText>
                         <div className="flex flex-row gap-x-2 flex-wrap">
-                            <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/projects")}>
+                            <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/projects");}}>
                                 /projects
                             </div>
-                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/experience")}>
+                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>
                                 /experience
                             </div>
-                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/education")}>
+                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/education");}}>
                                 /education
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>

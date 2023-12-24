@@ -70,7 +70,7 @@ export default function HomePage() {
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/about")}>
+                        <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/about");}}>
                             /about
                         </div>
                         <PlainText>
@@ -78,7 +78,7 @@ export default function HomePage() {
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/projects")}>
+                        <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/projects");}}>
                             /projects
                         </div>
                         <PlainText>
@@ -86,7 +86,7 @@ export default function HomePage() {
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/experience")}>
+                        <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>
                             /experience
                         </div>
                         <PlainText>
@@ -94,7 +94,7 @@ export default function HomePage() {
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => navigate("/education")}>
+                        <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/education");}}>
                             /education
                         </div>
                         <PlainText>
