@@ -4,7 +4,7 @@ import { AppContext } from "../../App";
 import PageTemplate from "./PageTemplate";
 import ItemWindow from "../blocks/ItemWindow";
 import ItemWindowContainer from "../blocks/ItemWindowContainer";
-import SubHeading from "../text/Subheading";
+import SubHeading from "../text/SubHeading";
 import PlainText from "../text/PlainText";
 import Heading from "../text/Heading";
 

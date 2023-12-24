@@ -12,7 +12,7 @@ export default function NavBar({ pageType }: {
 
     const [colorProperties, setColorProperties] = useState<{ buttons: String, background: String }>({ buttons: "", background: "" });
     const [sidePanelShown, setSidePanelShown] = useState<boolean>(false);
-    const [reloader, setReloader] = useState<boolean>(false);
+    const [, setReloader] = useState<boolean>(false);
 
     useEffect(() => {
         switch (pageType) {

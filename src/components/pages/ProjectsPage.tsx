@@ -6,7 +6,7 @@ import PageTemplate from "./PageTemplate";
 import ItemWindow from "../blocks/ItemWindow";
 import ItemWindowContainer from "../blocks/ItemWindowContainer";
 import Heading from "../text/Heading";
-import SubHeading from "../text/Subheading";
+import SubHeading from "../text/SubHeading";
 import PlainText from "../text/PlainText";
 import SubSubHeading from "../text/SubSubHeading";
 import BulletList from "../text/BulletList";

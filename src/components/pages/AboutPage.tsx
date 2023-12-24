@@ -6,7 +6,7 @@ import PageTemplate from "./PageTemplate";
 import ItemWindow from "../blocks/ItemWindow";
 import ItemWindowContainer from "../blocks/ItemWindowContainer";
 import PlainText from "../text/PlainText";
-import SubHeading from "../text/Subheading";
+import SubHeading from "../text/SubHeading";
 
 import aboutHeadShot from "../../assets/about_head_shot.png";
 

@@ -4,7 +4,7 @@ import PlainText from "../text/PlainText";
 
 export default function FooterBar() {
     const [siteInfoPanelShown, setSiteInfoPanelShown] = useState<Boolean>(false);
-    const [reloader, setReloader] = useState<boolean>(false);
+    const [, setReloader] = useState<boolean>(false);
 
     useEffect(() => {
         window.addEventListener("resize", () => {
