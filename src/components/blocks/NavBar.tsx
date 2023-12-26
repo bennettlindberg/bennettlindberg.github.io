@@ -4,7 +4,7 @@ import { IconSVG } from "./IconSVG";
 import { AppContext } from "../../App";
 
 export default function NavBar({ pageType }: {
-    pageType: "home" | "about" | "projects" | "experience" | "education"
+    pageType: "home" | "about" | "skills" | "projects" | "experience" | "education"
 }) {
     const navigate = useNavigate();
 
@@ -18,8 +18,8 @@ export default function NavBar({ pageType }: {
         switch (pageType) {
             case "home":
                 setColorProperties({
-                    buttons: "from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400",
-                    background: "from-red-100 to-pink-100 dark:from-red-900 dark:to-pink-900"
+                    buttons: "from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300",
+                    background: "from-orange-100 to-amber-100 dark:from-orange-900 dark:to-amber-900"
                 });
                 break;
 
@@ -30,17 +30,24 @@ export default function NavBar({ pageType }: {
                 });
                 break;
 
+            case "skills":
+                setColorProperties({
+                    buttons: "from-orange-600 to-red-300 hover:to-orange-600 hover:from-red-300",
+                    background: "from-orange-100 to-red-100 dark:from-orange-900 dark:to-red-900"
+                });
+                break;
+
             case "projects":
                 setColorProperties({
-                    buttons: "from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300",
-                    background: "from-orange-100 to-amber-100 dark:from-orange-900 dark:to-amber-900"
+                    buttons: "to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500",
+                    background: "to-teal-100 from-blue-100 dark:to-teal-900 dark:from-blue-900"
                 });
                 break;
 
             case "experience":
                 setColorProperties({
-                    buttons: "to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500",
-                    background: "to-emerald-100 from-blue-100 dark:to-emerald-900 dark:from-blue-900"
+                    buttons: "from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400",
+                    background: "from-red-100 to-pink-100 dark:from-red-900 dark:to-pink-900"
                 });
                 break;
 
@@ -64,7 +71,7 @@ export default function NavBar({ pageType }: {
     }, []);
 
     let navContent: React.ReactNode = <></>;
-    if (window.innerWidth <= 700) {
+    if (window.innerWidth <= 800) {
         navContent =
             <div className="flex flex-row gap-x-5 items-center flex-grow justify-center overflow-hidden">
                 {pageType === "home" &&
@@ -75,6 +82,11 @@ export default function NavBar({ pageType }: {
                 {pageType === "about" &&
                     <div className={`text-xl text-slate-600 dark:text-slate-300 underline font-bold`} onClick={() => navigate("/about")}>
                         /about
+                    </div>
+                }
+                {pageType === "skills" &&
+                    <div className={`text-xl text-slate-600 dark:text-slate-300 underline font-bold`} onClick={() => navigate("/skills")}>
+                        /skills
                     </div>
                 }
                 {pageType === "projects" &&
@@ -93,11 +105,14 @@ export default function NavBar({ pageType }: {
                     </div>
                 }
             </div>
-    } else if (window.innerWidth <= 1050) {
+    } else if (window.innerWidth <= 1150) {
         navContent =
             <div className="flex flex-row gap-x-5 items-center flex-grow justify-center">
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "about" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/about")}>
                     /about
+                </div>
+                <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "skills" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/skills")}>
+                    /skills
                 </div>
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "projects" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/projects")}>
                     /projects
@@ -117,6 +132,9 @@ export default function NavBar({ pageType }: {
                 </div>
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "about" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/about")}>
                     /about
+                </div>
+                <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "skills" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/skills")}>
+                    /skills
                 </div>
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "projects" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/projects")}>
                     /projects
@@ -148,7 +166,7 @@ export default function NavBar({ pageType }: {
                         </div>
                     </div>
                     {sidePanelShown &&
-                        <div className={`absolute top-[80px] right-5 bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-900 dark:hover:bg-zinc-800 bg-opacity-75 rounded-xl p-5 shadow-2xl dark:shadow-gray-900`}>
+                        <div className={`absolute top-[80px] right-5 bg-zinc-100 hover:bg-zinc-200 dark:bg-zinc-900 dark:hover:bg-zinc-800 rounded-xl p-5 shadow-2xl dark:shadow-gray-900`}>
                             <div className="group flex flex-row gap-x-2 pb-2 w-fit">
                                 <div className="flex flex-row justify-center rounded-full h-3 w-3 bg-[#ED6A5E] border-[1px] border-[#df6054]" onClick={() => setSidePanelShown(false)}>
                                     <div className="flex flex-col justify-center invisible group-hover:visible">
@@ -175,6 +193,14 @@ export default function NavBar({ pageType }: {
                                     </div>
                                     <div className="font-bold text-md text-slate-600 dark:text-slate-300">
                                         {pageType === "about" && " ✔"}
+                                    </div>
+                                </div>
+                                <div className="flex flex-row gap-x-3">
+                                    <div className={`pl-4 text-md text-slate-600 dark:text-slate-300 ${pageType === "skills" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/skills")}>
+                                        /skills
+                                    </div>
+                                    <div className="font-bold text-md text-slate-600 dark:text-slate-300">
+                                        {pageType === "skills" && " ✔"}
                                     </div>
                                 </div>
                                 <div className="flex flex-row gap-x-3">

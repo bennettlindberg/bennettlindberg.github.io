@@ -7,6 +7,7 @@ import ProjectsPage from "./components/pages/ProjectsPage.tsx";
 import ExperiencePage from "./components/pages/ExperiencePage.tsx";
 import EducationPage from "./components/pages/EducationPage.tsx";
 import ErrorPage from "./components/pages/ErrorPage.tsx";
+import SkillsPage from "./components/pages/SkillsPage.tsx";
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path: "about",
                 element: <AboutPage />,
+            },
+            {
+                path: "skills",
+                element: <SkillsPage />,
             },
             {
                 path: "projects",

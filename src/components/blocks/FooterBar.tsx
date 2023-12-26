@@ -16,6 +16,19 @@ export default function FooterBar() {
         });
     }, []);
 
+    const siteInfoText =
+        <>
+            <PlainText>
+                Site Version: 1.1.0
+            </PlainText>
+            <PlainText>
+                Aside from the "BL" logo seen on the left side of the navigation bar, all SVG icons used on this site were sourced from the <a href="https://www.svgrepo.com/collection/dazzle-line-icons/" target="_blank" className="underline hover:font-bold">Dazzle Line Icons</a> collection, a set of SVG icons created by <a href="https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com" target="_blank" className="underline hover:font-bold">Dazzle UI</a> under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" className="underline hover:font-bold">CC Attribution License</a> via <a href="https://www.svgrepo.com/" target="_blank" className="underline hover:font-bold">SVG Repo</a>.
+            </PlainText>
+            <PlainText>
+                The Motorola Solutions, Northwestern University, and Code Platoon logos used on this site are not my own and are the intellectual property of their respective entities.
+            </PlainText>
+        </>;
+
     if (window.innerWidth >= 1200) {
         return (
             <>
@@ -32,15 +45,7 @@ export default function FooterBar() {
                                 <div className="flex flex-row justify-center rounded-full h-3 w-3 bg-[#E1D9D6] border-[1px] border-[#cfc8c6]"></div>
                             </div>
 
-                            <PlainText>
-                                Site Version: 1.0.1
-                            </PlainText>
-                            <PlainText>
-                                Aside from the "BL" logo seen on the left side of the navigation bar, all SVG icons used on this site were sourced from the <a href="https://www.svgrepo.com/collection/dazzle-line-icons/" target="_blank" className="underline hover:font-bold">Dazzle Line Icons</a> collection, a set of SVG icons created by <a href="https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com" target="_blank" className="underline hover:font-bold">Dazzle UI</a> under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" className="underline hover:font-bold">CC Attribution License</a> via <a href="https://www.svgrepo.com/" target="_blank" className="underline hover:font-bold">SVG Repo</a>.
-                            </PlainText>
-                            <PlainText>
-                                The Motorola Solutions, Northwestern University, and Code Platoon logos used on this site are not my own and are the intellectual property of their respective entities.
-                            </PlainText>
+                            {siteInfoText}
                         </div>
                     }
                     <div className="bg-zinc-100 dark:bg-zinc-900 bg-opacity-75 dark:bg-opacity-75 rounded-xl shadow-2xl dark:shadow-gray-900 flex flex-row gap-x-5 m-5 p-2 justify-between">
@@ -85,15 +90,7 @@ export default function FooterBar() {
                                 <div className="flex flex-row justify-center rounded-full h-3 w-3 bg-[#E1D9D6] border-[1px] border-[#cfc8c6]"></div>
                             </div>
 
-                            <PlainText>
-                                Site Version: 1.0.1
-                            </PlainText>
-                            <PlainText>
-                                Aside from the "BL" logo seen on the left side of the navigation bar, all SVG icons used on this site were sourced from the <a href="https://www.svgrepo.com/collection/dazzle-line-icons/" target="_blank" className="underline hover:font-bold">Dazzle Line Icons</a> collection, a set of SVG icons created by <a href="https://dazzleui.gumroad.com/l/dazzleiconsfree?ref=svgrepo.com" target="_blank" className="underline hover:font-bold">Dazzle UI</a> under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" className="underline hover:font-bold">CC Attribution License</a> via <a href="https://www.svgrepo.com/" target="_blank" className="underline hover:font-bold">SVG Repo</a>.
-                            </PlainText>
-                            <PlainText>
-                                The Motorola Solutions, Northwestern University, and Code Platoon logos used on this site are not my own and are the intellectual property of their respective entities.
-                            </PlainText>
+                            {siteInfoText}
                         </div>
                     }
                     <div className="bg-zinc-100 dark:bg-zinc-900 bg-opacity-75 rounded-xl shadow-2xl dark:shadow-gray-900 flex flex-row flex-wrap gap-x-5 gap-y-2 m-5 p-2">

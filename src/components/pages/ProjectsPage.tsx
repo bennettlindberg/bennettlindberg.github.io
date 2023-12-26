@@ -32,24 +32,24 @@ export default function ProjectsPage() {
                 background={
                     <div className="flex flex-col gap-y-[40px]">
                         <div className="grid grid-cols-7">
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-2 col-span-1 animate-fade-left-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-3 col-span-1 animate-fade-left-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-4 col-span-1 animate-fade-left-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-2 col-span-1 animate-fade-left-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-3 col-span-1 animate-fade-left-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-4 col-span-1 animate-fade-left-rotate shadow-inner"></div>
                         </div>
                         <div className="grid grid-cols-7">
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-5 col-span-1 animate-fade-left-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-6 col-span-1 animate-fade-left-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-7 col-span-1 animate-fade-left-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-5 col-span-1 animate-fade-left-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-6 col-span-1 animate-fade-left-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-7 col-span-1 animate-fade-left-rotate shadow-inner"></div>
                         </div>
                         <div className="grid grid-cols-7">
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-2 col-span-1 animate-fade-right-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-3 col-span-1 animate-fade-right-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-4 col-span-1 animate-fade-right-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-2 col-span-1 animate-fade-right-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-3 col-span-1 animate-fade-right-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-4 col-span-1 animate-fade-right-rotate shadow-inner"></div>
                         </div>
                         <div className="grid grid-cols-7">
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-5 col-span-1 animate-fade-right-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-6 col-span-1 animate-fade-right-rotate shadow-inner"></div>
-                            <div className="h-[40px] w-[40px] bg-orange-100 dark:bg-orange-950 rotate-45 rounded-lg col-start-7 col-span-1 animate-fade-right-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-5 col-span-1 animate-fade-right-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-6 col-span-1 animate-fade-right-rotate shadow-inner"></div>
+                            <div className="h-[40px] w-[40px] bg-blue-100 dark:bg-blue-950 rotate-45 rounded-lg col-start-7 col-span-1 animate-fade-right-rotate shadow-inner"></div>
                         </div>
                         <div className="h-0"></div>
                     </div>
@@ -104,7 +104,7 @@ export default function ProjectsPage() {
                             Learn More:
                         </SubSubHeading>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                            <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://swimeeter.com" target="_blank">Live Website</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
@@ -216,7 +216,7 @@ export default function ProjectsPage() {
                             Learn More:
                         </SubSubHeading>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                            <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href={DTC2TestingReport} target="_blank">Final Report Excerpt</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
@@ -254,7 +254,7 @@ export default function ProjectsPage() {
                             <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href={DTC1Poster} target="_blank">Design Poster</a>
                             </div>
-                            <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                            <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href={DTC1TestingReport} target="_blank">Final Report Excerpt</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>

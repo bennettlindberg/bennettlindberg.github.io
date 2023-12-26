@@ -25,58 +25,58 @@ export default function ExperiencePage() {
                     <div className="flex flex-col gap-y-[40px]">
                         <div className="flex flex-row justify-around">
                             <div className="flex flex-row justify-center items-center gap-x-2">
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-left-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-left-short shadow-inner"></div>
                                 <div className="flex flex-col justify-between h-[40px]">
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-top-short shadow-inner"></div>
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-top-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
                                 </div>
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-right-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-right-short shadow-inner"></div>
                             </div>
                             <div className="flex flex-row justify-center items-center gap-x-2">
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-left-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-left-short shadow-inner"></div>
                                 <div className="flex flex-col justify-between h-[40px]">
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-top-short shadow-inner"></div>
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-top-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
                                 </div>
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-right-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-right-short shadow-inner"></div>
                             </div>
                         </div>
                         <div className="flex flex-row justify-center">
                             <div className="flex flex-row justify-center items-center gap-x-2">
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-left-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-left-short shadow-inner"></div>
                                 <div className="flex flex-col justify-between h-[40px]">
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-top-short shadow-inner"></div>
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-top-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
                                 </div>
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-right-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-right-short shadow-inner"></div>
                             </div>
                         </div>
                         <div className="flex flex-row justify-around">
                             <div className="flex flex-row justify-center items-center gap-x-2">
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-left-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-left-short shadow-inner"></div>
                                 <div className="flex flex-col justify-between h-[40px]">
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-top-short shadow-inner"></div>
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-top-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
                                 </div>
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-right-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-right-short shadow-inner"></div>
                             </div>
                             <div className="flex flex-row justify-center items-center gap-x-2">
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-left-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-left-short shadow-inner"></div>
                                 <div className="flex flex-col justify-between h-[40px]">
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-top-short shadow-inner"></div>
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-top-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
                                 </div>
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-right-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-right-short shadow-inner"></div>
                             </div>
                         </div>
                         <div className="flex flex-row justify-center">
                             <div className="flex flex-row justify-center items-center gap-x-2">
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-left-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-left-short shadow-inner"></div>
                                 <div className="flex flex-col justify-between h-[40px]">
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-top-short shadow-inner"></div>
-                                    <div className="h-[15px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-top-short shadow-inner"></div>
+                                    <div className="h-[15px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-bottom-short shadow-inner"></div>
                                 </div>
-                                <div className="h-[20px] w-[100px] bg-blue-100 dark:bg-blue-950 rounded-lg animate-fade-right-short shadow-inner"></div>
+                                <div className="h-[20px] w-[100px] bg-red-100 dark:bg-red-950 rounded-lg animate-fade-right-short shadow-inner"></div>
                             </div>
                         </div>
                         <div className="h-0"></div>
@@ -127,7 +127,7 @@ export default function ExperiencePage() {
                             [FUTURE ROLE]
                         </PlainText>
                         <PlainText>
-                            This upcoming winter quarter, I will be working with the Computer Science Department at Northwestern University to assist with the teaching of COMP_SCI 214: Data Structures and Algorithms. In this role, I'll be answering student questions, hosting office hours, and grading assignments and exams.
+                            This upcoming winter quarter, I will be working with the Computer Science Department at Northwestern University to assist with the teaching of COMP_SCI 214: Data Structures and Algorithms. In this role, I'll be functioning as an undergraduate teaching assistant by answering student questions, hosting office hours, and grading assignments and exams.
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">

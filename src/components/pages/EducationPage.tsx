@@ -74,7 +74,7 @@ export default function EducationPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            Currently, I am completing my B.S. in Computer Science at Northwestern University in the McCormick School of Engineering. I am projected to complete my degree in three years. At Northwestern, I have served as a Peer Mentor for the CS Department's data structures and algorithms course and achieved High Honors during my Fall 2022, Winter 2023, Spring 2023, and Fall 2023 quarters.
+                            Currently, I am completing my B.S. in Computer Science at Northwestern University in the McCormick School of Engineering. I am projected to finish my degree in three years. At Northwestern, I have served as a Peer Mentor for the CS Department's data structures and algorithms course and achieved High Honors during my Fall 2022, Winter 2023, Spring 2023, and Fall 2023 quarters.
                         </PlainText>
                         <SubSubHeading>
                             Technical Coursework:
@@ -107,65 +107,6 @@ export default function EducationPage() {
                                 "DSGN 220 - Design Sketching",
                             ]}></BulletList>
                         </PlainText>
-                    </ItemWindow>
-                </ItemWindowContainer>
-                <ItemWindowContainer>
-                    <ItemWindow standardWidth="1">
-                        <Heading>
-                            Technical Skills
-                        </Heading>
-                        <PlainText>
-                            The following technical skills were obtained through my:
-                            <BulletList listElements={[
-                                "completed coursework listed above",
-                                "teaching assistant role at Code Platoon",
-                                "experiential learning through the development of software projects",
-                                "independent study"
-                            ]}></BulletList>
-                        </PlainText>
-                    </ItemWindow>
-                    <ItemWindow standardWidth="1/3">
-                        <SubHeading>
-                            Programming and Markup Languages
-                        </SubHeading>
-                        <BulletList listElements={[
-                            "C & C++",
-                            "x86 Assembly",
-                            "Java",
-                            "Python",
-                            "JavaScript & TypeScript",
-                            "HTML & CSS",
-                            "SQL",
-                            "MATLAB",
-                            "LaTeX"
-                        ]}></BulletList>
-                    </ItemWindow>
-                    <ItemWindow standardWidth="1/3">
-                        <SubHeading>
-                            Technologies
-                        </SubHeading>
-                        <BulletList listElements={[
-                            "ReactJS & React Router",
-                            "Django & Django REST Framework",
-                            "Tailwind CSS",
-                            "PostgreSQL",
-                            "Vite",
-                            "NextJS",
-                            "Axios",
-                            "Postman"
-                        ]}></BulletList>
-                    </ItemWindow>
-                    <ItemWindow standardWidth="1/3">
-                        <SubHeading>
-                            Miscellaneous
-                        </SubHeading>
-                        <BulletList listElements={[
-                            "Agile Software Development",
-                            "Git & GitHub",
-                            "Database Schema Design",
-                            "Object Relational Mappings (ORMs)",
-                            "RESTful API Development"
-                        ]}></BulletList>
                     </ItemWindow>
                 </ItemWindowContainer>
             </PageTemplate>

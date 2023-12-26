@@ -23,20 +23,20 @@ export default function HomePage() {
                 background={
                     <div className="flex flex-col gap-y-[40px]">
                         <div className="flex flex-row justify-between">
-                            <div className="h-[40px] w-[40%] bg-red-100 dark:bg-red-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
-                            <div className="h-[40px] w-[20%] bg-red-100 dark:bg-red-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[40%] bg-orange-100 dark:bg-orange-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[20%] bg-orange-100 dark:bg-orange-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
                         </div>
                         <div className="flex flex-row justify-between">
-                            <div className="h-[40px] w-[30%] bg-red-100 dark:bg-red-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
-                            <div className="h-[40px] w-[30%] bg-red-100 dark:bg-red-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[30%] bg-orange-100 dark:bg-orange-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[30%] bg-orange-100 dark:bg-orange-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
                         </div>
                         <div className="flex flex-row justify-between">
-                            <div className="h-[40px] w-[20%] bg-red-100 dark:bg-red-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
-                            <div className="h-[40px] w-[40%] bg-red-100 dark:bg-red-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[20%] bg-orange-100 dark:bg-orange-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[40%] bg-orange-100 dark:bg-orange-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
                         </div>
                         <div className="flex flex-row justify-between">
-                            <div className="h-[40px] w-[30%] bg-red-100 dark:bg-red-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
-                            <div className="h-[40px] w-[30%] bg-red-100 dark:bg-red-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[30%] bg-orange-100 dark:bg-orange-950 rounded-r-full animate-fade-left-expand shadow-inner"></div>
+                            <div className="h-[40px] w-[30%] bg-orange-100 dark:bg-orange-950 rounded-l-full animate-fade-right-expand shadow-inner"></div>
                         </div>
                         <div className="h-0"></div>
                     </div>
@@ -70,36 +70,44 @@ export default function HomePage() {
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/about");}}>
-                            /about
-                        </div>
                         <PlainText>
                             Learn general information about my interests inside and outside of technology and academia...
                         </PlainText>
+                        <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/about");}}>
+                            /about
+                        </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/projects");}}>
-                            /projects
+                        <PlainText>
+                            Look at a list of the technical skills I have obtained through academic work, independent study, and previous technical roles...
+                        </PlainText>
+                        <div className={`font-bold bg-gradient-to-tr from-orange-600 to-red-300 hover:to-orange-600 hover:from-red-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/skills");}}>
+                            /skills
                         </div>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/2">
                         <PlainText>
                             Interact with past and in-progress work of mine related to software engineering and computer science...
                         </PlainText>
+                        <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/projects");}}>
+                            /projects
+                        </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-blue-500 hover:from-emerald-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>
-                            /experience
-                        </div>
                         <PlainText>
                             See my teaching and software development work experience applicable to future roles to technology industries...
                         </PlainText>
+                        <div className={`font-bold bg-gradient-to-tr from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>
+                            /experience
+                        </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
-                        <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/education");}}>
-                            /education
-                        </div>
                         <PlainText>
                             View my education history and academic coursework related to software engineering and computer science...
                         </PlainText>
+                        <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/education");}}>
+                            /education
+                        </div>
                     </ItemWindow>
                 </ItemWindowContainer>
             </PageTemplate>
