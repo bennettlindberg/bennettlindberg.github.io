@@ -118,16 +118,20 @@ export default function ExperiencePage() {
                                 Northwestern University
                             </SubHeading>
                             <PlainText>
-                                Data Structures and Algorithms Peer Mentor • January-March 2024
+                                Computer Science Department Peer Mentor • January-June 2024
                             </PlainText>
                         </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            [FUTURE ROLE]
+                            I currently work as a Peer Mentor in the Computer Science Department at Northwestern University. In this role, I have functioned as an undergraduate teaching assistant for several of the department's courses. My responsibilities include answering student questions, hosting office hours, and grading assignments and exams.
                         </PlainText>
                         <PlainText>
-                            This upcoming winter quarter, I will be working with the Computer Science Department at Northwestern University to assist with the teaching of COMP_SCI 214: Data Structures and Algorithms. In this role, I'll be functioning as an undergraduate teaching assistant by answering student questions, hosting office hours, and grading assignments and exams.
+                            I have assisted with teaching the following courses: 
+                            <BulletList listElements={[
+                                "COMP_SCI 214 - Data Structures and Algorithms (Winter 2024)",
+                                "COMP_SCI 396 - Foundations of Security (Spring 2024)"
+                            ]}></BulletList>
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">

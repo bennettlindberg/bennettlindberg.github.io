@@ -93,6 +93,7 @@ export default function SkillsPage() {
                             "JavaScript & TypeScript",
                             "HTML & CSS",
                             "SQL",
+                            "Racket",
                             "MATLAB",
                             "LaTeX"
                         ]}></BulletList>
