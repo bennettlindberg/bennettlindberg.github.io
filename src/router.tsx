@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import HomePage from "./components/pages/HomePage.tsx";
 import AboutPage from "./components/pages/AboutPage.tsx";
 import ProjectsPage from "./components/pages/ProjectsPage.tsx";
+import ResearchPage from "./components/pages/ResearchPage.tsx";
 import ExperiencePage from "./components/pages/ExperiencePage.tsx";
 import EducationPage from "./components/pages/EducationPage.tsx";
 import ErrorPage from "./components/pages/ErrorPage.tsx";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: "projects",
                 element: <ProjectsPage />,
+            },
+            {
+                path: "research",
+                element: <ResearchPage />,
             },
             {
                 path: "experience",

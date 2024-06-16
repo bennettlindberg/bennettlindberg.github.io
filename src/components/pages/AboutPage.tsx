@@ -22,28 +22,28 @@ export default function AboutPage() {
                 background={
                     <div className="flex flex-col gap-y-[40px]">
                         <div className="grid grid-cols-9 items-center">
-                            <div className="h-[40px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-2 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[30px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-3 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[20px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-4 col-span-1 animate-fade-right-stretch shadow-inner"></div>
-                            <div className="h-[10px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-5 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[40px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-2 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[30px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-3 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[20px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-4 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[10px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-5 col-span-1 animate-fade-right-stretch shadow-inner"></div>
                         </div>
                         <div className="grid grid-cols-9 items-center">
-                            <div className="h-[10px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-3 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[20px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-4 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[30px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-5 col-span-1 animate-fade-right-stretch shadow-inner"></div>
-                            <div className="h-[40px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-6 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[10px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-3 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[20px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-4 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[30px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-5 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[40px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-6 col-span-1 animate-fade-right-stretch shadow-inner"></div>
                         </div>
                         <div className="grid grid-cols-9 items-center">
-                            <div className="h-[40px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-4 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[30px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-5 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[20px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-6 col-span-1 animate-fade-right-stretch shadow-inner"></div>
-                            <div className="h-[10px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-7 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[40px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-4 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[30px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-5 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[20px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-6 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[10px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-7 col-span-1 animate-fade-right-stretch shadow-inner"></div>
                         </div>
                         <div className="grid grid-cols-9 items-center">
-                            <div className="h-[10px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-5 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[20px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-6 col-span-1 animate-fade-left-stretch shadow-inner"></div>
-                            <div className="h-[30px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-7 col-span-1 animate-fade-right-stretch shadow-inner"></div>
-                            <div className="h-[40px] w-[90%] bg-green-100 dark:bg-green-950 rounded-[10px] col-start-8 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[10px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-5 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[20px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-6 col-span-1 animate-fade-left-stretch shadow-inner"></div>
+                            <div className="h-[30px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-7 col-span-1 animate-fade-right-stretch shadow-inner"></div>
+                            <div className="h-[40px] w-[90%] bg-lime-100 dark:bg-lime-950 rounded-[10px] col-start-8 col-span-1 animate-fade-right-stretch shadow-inner"></div>
                         </div>
                         <div className="h-0"></div>
                     </div>

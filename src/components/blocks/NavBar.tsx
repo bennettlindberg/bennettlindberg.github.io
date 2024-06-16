@@ -4,7 +4,7 @@ import { IconSVG } from "./IconSVG";
 import { AppContext } from "../../App";
 
 export default function NavBar({ pageType }: {
-    pageType: "home" | "about" | "skills" | "projects" | "experience" | "education"
+    pageType: "home" | "about" | "skills" | "projects" | "research" | "experience" | "education"
 }) {
     const navigate = useNavigate();
 
@@ -41,6 +41,13 @@ export default function NavBar({ pageType }: {
                 setColorProperties({
                     buttons: "to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500",
                     background: "to-teal-100 from-blue-100 dark:to-teal-900 dark:from-blue-900"
+                });
+                break;
+
+            case "research":
+                setColorProperties({
+                    buttons: "from-emerald-400 to-teal-600 hover:to-emerald-400 hover:from-teal-600",
+                    background: "from-emerald-100 to-teal-200 dark:from-emerald-900 dark:to-teal-800"
                 });
                 break;
 
@@ -94,6 +101,11 @@ export default function NavBar({ pageType }: {
                         /projects
                     </div>
                 }
+                {pageType === "research" &&
+                    <div className={`text-xl text-slate-600 dark:text-slate-300 underline font-bold`} onClick={() => navigate("/research")}>
+                        /research
+                    </div>
+                }
                 {pageType === "experience" &&
                     <div className={`text-xl text-slate-600 dark:text-slate-300 underline font-bold`} onClick={() => navigate("/experience")}>
                         /experience
@@ -117,6 +129,9 @@ export default function NavBar({ pageType }: {
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "projects" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/projects")}>
                     /projects
                 </div>
+                <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "research" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/research")}>
+                    /research
+                </div>
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "experience" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/experience")}>
                     /experience
                 </div>
@@ -138,6 +153,9 @@ export default function NavBar({ pageType }: {
                 </div>
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "projects" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/projects")}>
                     /projects
+                </div>
+                <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "research" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/research")}>
+                    /research
                 </div>
                 <div className={`text-xl text-slate-600 dark:text-slate-300 ${pageType === "experience" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/experience")}>
                     /experience
@@ -209,6 +227,14 @@ export default function NavBar({ pageType }: {
                                     </div>
                                     <div className="font-bold text-md text-slate-600 dark:text-slate-300">
                                         {pageType === "projects" && " ✔"}
+                                    </div>
+                                </div>
+                                <div className="flex flex-row gap-x-3">
+                                    <div className={`pl-4 text-md text-slate-600 dark:text-slate-300 ${pageType === "research" ? "underline font-bold" : "hover:underline hover:font-bold"}`} onClick={() => navigate("/research")}>
+                                        /research
+                                    </div>
+                                    <div className="font-bold text-md text-slate-600 dark:text-slate-300">
+                                        {pageType === "research" && " ✔"}
                                     </div>
                                 </div>
                                 <div className="flex flex-row gap-x-3">

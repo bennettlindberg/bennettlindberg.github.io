@@ -103,10 +103,10 @@ export default function ExperiencePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            [FUTURE ROLE]
+                            This summer, I am working at Motorola Solutions as a Software Engineering Intern. Alongside my co-workers in the Secure Products Group at Motorola Solutions, I develop full-stack applications that help ensure critical communications are safe and secure.
                         </PlainText>
                         <PlainText>
-                            This upcoming summer, I will be working at Motorola Solutions as a Software Engineering Intern! Alongside my future co-workers in the Secure Products Group at Motorola Solutions, I'll be working on low-level software to ensure critical communications are safe and secure.
+                            During my time at Motorola Solutions, I have worked with a variety of technologies and paradigms, including Reactive Programming, Angular front-end development, Spring Boot application development, and cloud architecture. 
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">

@@ -11,6 +11,7 @@ import SubHeading from "../text/SubHeading";
 import SubSubHeading from "../text/SubSubHeading";
 
 import NULogo from "../../assets/NU_logo.jpg";
+import BulletGroupHeader from "../text/BulletGroupHeader";
 
 export default function EducationPage() {
     const { setTabTitle } = useContext(AppContext);
@@ -74,38 +75,89 @@ export default function EducationPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            Currently, I am completing my B.S. in Computer Science at Northwestern University in the McCormick School of Engineering. I am projected to finish my bachelor's degree in three years. At Northwestern, I have served as a Peer Mentor for several courses in the CS Department and achieved High Honors during my Fall 2022, Winter 2023, Spring 2023, Fall 2023, and Winter 2024 quarters.
+                            Currently, I am completing my B.S. in Computer Science at Northwestern University in the McCormick School of Engineering. I am projected to finish my bachelor's degree in three years. At Northwestern, I have served as a Peer Mentor for several courses in the CS Department and achieved High Honors during my Fall 2022, Winter 2023, Spring 2023, Fall 2023, Winter 2024, and Spring 2024 quarters.
+                        </PlainText>
+                        <SubSubHeading>
+                            Upcoming Coursework (Fall 2024):
+                        </SubSubHeading>
+                        <PlainText>
+                            <BulletList listElements={[
+                                "COMP_SCI 298 - Computer Science Research Track",
+                                "COMP_SCI 330 - Human-Computer Interaction",
+                                "COMP_SCI 343 - Operating Systems",
+                            ]}></BulletList>
                         </PlainText>
                         <SubSubHeading>
                             Technical Coursework:
                         </SubSubHeading>
                         <PlainText>
+                            <BulletGroupHeader>
+                                Introductory:
+                            </BulletGroupHeader>
                             <BulletList listElements={[
                                 "COMP_SCI 111 - Fundamentals of Computer Science I",
                                 "COMP_SCI 150 - Fundamentals of Computer Science 1.5",
                                 "COMP_SCI 211 - Fundamentals of Computer Science II",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Mathematics:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
                                 "COMP_SCI 212 - Mathematical Foundations of Computer Science I",
-                                "COMP_SCI 213 - Introduction to Computer Systems",
-                                "COMP_SCI 214 - Data Structures and Algorithms",
                                 "COMP_SCI 262 - Mathematical Foundations of Computer Science II",
-                                "COMP_SCI 321 - Programming Languages",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Systems:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
+                                "COMP_ENG 203 - Introduction to Computer Engineering",
+                                "COMP_SCI 213 - Introduction to Computer Systems",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Algorithms:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
+                                "COMP_SCI 214 - Data Structures and Algorithms",
                                 "COMP_SCI 336 - Design and Analysis of Algorithms",
-                                "COMP_SCI 348 - Artificial Intelligence",
-                                "COMP_SCI 396 - Foundations of Security",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Programming Languages:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
+                                "COMP_SCI 321 - Programming Languages",
                                 "COMP_SCI 424 - Dynamics of Programming Languages",
                                 "COMP_SCI 496 - Programming Languages Seminar",
-                                "COMP_ENG 203 - Introduction to Computer Engineering",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Miscellaneous:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
+                                "COMP_SCI 348 - Artificial Intelligence",
+                                "COMP_SCI 396 - Foundations of Security",
                             ]}></BulletList>
                         </PlainText>
                         <SubSubHeading>
                             Other Relevant Coursework:
                         </SubSubHeading>
                         <PlainText>
+                            <BulletGroupHeader>
+                                Engineering:
+                            </BulletGroupHeader>
                             <BulletList listElements={[
                                 "GEN_ENG 205-1 - MATLAB and Linear Algebra",
                                 "GEN_ENG 205-2 - Statics",
                                 "GEN_ENG 205-3 - Dynamics",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Mathematics:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
                                 "MATH 228-1 - Multivariable Differential Calculus",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Design:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
                                 "DSGN 106-1 - Design Thinking and Communication I",
                                 "DSGN 106-2 - Design Thinking and Communication II",
                                 "DSGN 220 - Design Sketching",

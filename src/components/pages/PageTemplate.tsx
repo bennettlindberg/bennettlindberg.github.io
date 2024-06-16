@@ -9,7 +9,7 @@ export default function PageTemplate(
         background,
     }: {
         children: React.ReactNode,
-        pageType: "home" | "about" | "skills" | "projects" | "experience" | "education",
+        pageType: "home" | "about" | "skills" | "projects" | "research" | "experience" | "education",
         background: React.ReactNode,
     }
 ) {
@@ -36,6 +36,10 @@ export default function PageTemplate(
 
         case "projects":
             backgroundGradientProperty = "to-blue-50 dark:to-blue-950";
+            break;
+
+        case "research":
+            backgroundGradientProperty = "to-emerald-50 dark:to-emerald-950";
             break;
 
         case "experience":
