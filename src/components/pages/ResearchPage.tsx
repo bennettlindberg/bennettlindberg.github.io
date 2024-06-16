@@ -1,5 +1,4 @@
 import { useContext, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import { AppContext } from "../../App";
 
 import PageTemplate from "./PageTemplate";
@@ -17,7 +16,6 @@ import ClighterRedex from "../../assets/ClighterRedex.png";
 export default function ResearchPage() {
     const { setTabTitle } = useContext(AppContext);
     useEffect(() => setTabTitle("Research | Bennett Lindberg"), []);
-    const navigate = useNavigate();
 
     return (
         <>
