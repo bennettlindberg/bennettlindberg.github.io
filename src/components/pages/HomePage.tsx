@@ -97,7 +97,7 @@ export default function HomePage() {
                         <PlainText>
                             Read my published computer science research and explore previous research-adjacent works of mine...
                         </PlainText>
-                        <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/research");}}>
+                        <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-teal-600 hover:from-emerald-400 hover:to-teal-600 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/research");}}>
                             /research
                         </div>
                     </ItemWindow>

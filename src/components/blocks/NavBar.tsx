@@ -46,7 +46,7 @@ export default function NavBar({ pageType }: {
 
             case "research":
                 setColorProperties({
-                    buttons: "from-emerald-400 to-teal-600 hover:to-emerald-400 hover:from-teal-600",
+                    buttons: "to-emerald-400 from-teal-600 hover:from-emerald-400 hover:to-teal-600",
                     background: "from-emerald-100 to-teal-200 dark:from-emerald-900 dark:to-teal-800"
                 });
                 break;
