@@ -106,8 +106,13 @@ export default function ExperiencePage() {
                             This summer, I am working at Motorola Solutions as a Software Engineering Intern. Alongside my co-workers in the Secure Products Group at Motorola Solutions, I develop full-stack applications that help ensure critical communications are safe and secure.
                         </PlainText>
                         <PlainText>
-                            During my time at Motorola Solutions, I have worked with a variety of technologies and paradigms, including Reactive Programming, Angular front-end development, Spring Boot application development, and cloud architecture. 
+                            During my time at Motorola Solutions, I have worked in an Agile software development environment using a variety of technologies and paradigms, including Reactive Programming, Angular front-end development, Spring Boot application development, Apache Kafka high-volume messaging, and REST API development involving Server-Sent Events.
                         </PlainText>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                                <a href="https://www.motorolasolutions.com/en_us.html" target="_blank">Motorola Solutions Site</a>
+                            </div>
+                        </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
                         <div className="flex flex-col gap-y-2 items-center text-center">
@@ -129,10 +134,21 @@ export default function ExperiencePage() {
                         <PlainText>
                             I have assisted with teaching the following courses: 
                             <BulletList listElements={[
-                                "COMP_SCI 214 - Data Structures and Algorithms (Winter 2024)",
-                                "COMP_SCI 396 - Foundations of Security (Spring 2024)"
+                                "COMP_SCI 214: Data Structures and Algorithms (Winter 2024)",
+                                "COMP_SCI 396: Foundations of Security (Spring 2024)"
                             ]}></BulletList>
                         </PlainText>
+                        <PlainText>
+                            In May 2024, I received the Peter and Adrienne Barris Outstanding Peer Mentor Award for my work assisting with the development of COMP_SCI 396: Foundations of Security, a new course focused on providing future software engineers with the security knowledge needed to design safe and secure software across domains.
+                        </PlainText>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                                <a href="https://www.mccormick.northwestern.edu/computer-science/news-events/news/articles/2024/northwestern-cs-announces-spring-2024-outstanding-teaching-assistant-and-peer-mentors.html" target="_blank">Award Announcement</a>
+                            </div>
+                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                                <a href="https://www.mccormick.northwestern.edu/computer-science/academics/undergraduate/peer-mentor-program/" target="_blank">Peer Mentor Program</a>
+                            </div>
+                        </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
                         <div className="flex flex-col gap-y-2 items-center text-center">
@@ -165,6 +181,11 @@ export default function ExperiencePage() {
                         <PlainText>
                             In addition to expanding my own technical skills, this role solidified my communication and teaching skills. During my time as a TA, I ensured student success through effective verbal and visual communication, the delivery of lectures on supplementary topics, one-on-one student mentorship, and frequent and thorough code reviews of student capstone projects.
                         </PlainText>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                                <a href="https://www.codeplatoon.org/" target="_blank">Code Platoon Site</a>
+                            </div>
+                        </div>
                     </ItemWindow>
                 </ItemWindowContainer>
             </PageTemplate>

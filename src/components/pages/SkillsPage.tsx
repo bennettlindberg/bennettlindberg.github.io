@@ -71,15 +71,6 @@ export default function SkillsPage() {
                         <Heading>
                             Technical Skills
                         </Heading>
-                        <PlainText>
-                            The following technical skills were obtained through my:
-                            <BulletList listElements={[
-                                "completed coursework listed above",
-                                "teaching assistant role at Code Platoon",
-                                "experiential learning through the development of software projects",
-                                "independent study"
-                            ]}></BulletList>
-                        </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
                         <SubHeading>
@@ -87,13 +78,13 @@ export default function SkillsPage() {
                         </SubHeading>
                         <BulletList listElements={[
                             "C & C++",
-                            "x86 Assembly",
                             "Java",
                             "Python",
                             "JavaScript & TypeScript",
                             "HTML & CSS",
-                            "SQL",
                             "Racket",
+                            "x86 Assembly",
+                            "SQL",
                             "MATLAB",
                             "LaTeX"
                         ]}></BulletList>
@@ -103,10 +94,14 @@ export default function SkillsPage() {
                             Technologies
                         </SubHeading>
                         <BulletList listElements={[
-                            "ReactJS & React Router",
+                            "React & React Router",
+                            "Spring Framework & Spring Boot",
                             "Django & Django REST Framework",
+                            "Angular",
                             "Tailwind CSS",
+                            "Kafka",
                             "PostgreSQL",
+                            "Docker",
                             "Vite",
                             "NextJS",
                             "Axios",
@@ -122,7 +117,9 @@ export default function SkillsPage() {
                             "Git & GitHub",
                             "Database Schema Design",
                             "Object Relational Mappings (ORMs)",
-                            "RESTful API Development"
+                            "RESTful API Development",
+                            "Reactive Programming",
+                            "Server-Sent Events"
                         ]}></BulletList>
                     </ItemWindow>
                 </ItemWindowContainer>

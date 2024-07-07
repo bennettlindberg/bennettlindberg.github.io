@@ -13,6 +13,7 @@ import BulletList from "../text/BulletList";
 
 import _2DGrapherImage from "../../assets/2DGrapher_cover_image.png";
 import SwimeeterImage from "../../assets/Swimeeter_cover_image.png";
+import SafeSecuritySiteImage from "../../assets/Safe_Security_Site_image.png";
 import SlideSprinterImage from "../../assets/Slide_Sprinter_cover_image.png";
 import PresentPlusImage from "../../assets/Present_Plus_cover_image.png";
 import PersonalSiteImage from "../../assets/Personal_Site_cover_image.png";
@@ -118,6 +119,47 @@ export default function ProjectsPage() {
                         <Heading>
                             Additional Works
                         </Heading>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <div className="flex flex-col gap-y-2 items-center text-center">
+                            <div className="flex flex-row justify-center">
+                                <img src={SafeSecuritySiteImage} alt="Safe Security Club Website" className="rounded-xl"></img>
+                            </div>
+                            <SubHeading>
+                                Safe Security Club Website
+                            </SubHeading>
+                            <PlainText>
+                                Static Web Application • April 2024
+                            </PlainText>
+                        </div>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="2/3">
+                        <PlainText>
+                            As the Director of Technology for the Safe Security Club at Northwestern University, a club focused on providing accessible cybersecurity knowledge to Northwestern's community, I implemented and deployed the club's informational website. The site includes an Information Hub, which lists several cybersecurity articles developed by the club and Northwestern students that delve into everyday but essential cybersecurity knowledge and practices.
+                        </PlainText>
+                        <PlainText>
+                            <span className="italic">NOTE: Much of the CSS styling for this site was not written by me.</span>
+                        </PlainText>
+                        <SubSubHeading>
+                            Languages and Technologies:
+                        </SubSubHeading>
+                        <BulletList listElements={[
+                            "JavaScript and HTML",
+                            "ReactJS",
+                            "React Router",
+                            "Tailwind CSS",
+                        ]}></BulletList>
+                        <SubSubHeading>
+                            Learn More:
+                        </SubSubHeading>
+                        <div className="flex flex-row flex-wrap gap-x-2 mt-2">
+                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                                <a href="https://safesecuritynu.com" target="_blank">Live Website</a>
+                            </div>
+                            <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
+                                <a href="https://github.com/SafeSecurityNU/safesecuritynu.github.io" target="_blank">GitHub Repository</a>
+                            </div>
+                        </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
                         <div className="flex flex-col gap-y-2 items-center text-center">

@@ -82,9 +82,9 @@ export default function EducationPage() {
                         </SubSubHeading>
                         <PlainText>
                             <BulletList listElements={[
-                                "COMP_SCI 298 - Computer Science Research Track",
-                                "COMP_SCI 330 - Human-Computer Interaction",
-                                "COMP_SCI 343 - Operating Systems",
+                                "COMP_SCI 298: Computer Science Research Track",
+                                "COMP_SCI 330: Human-Computer Interaction",
+                                "COMP_SCI 343: Operating Systems",
                             ]}></BulletList>
                         </PlainText>
                         <SubSubHeading>
@@ -95,45 +95,45 @@ export default function EducationPage() {
                                 Introductory:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_SCI 111 - Fundamentals of Computer Science I",
-                                "COMP_SCI 150 - Fundamentals of Computer Science 1.5",
-                                "COMP_SCI 211 - Fundamentals of Computer Science II",
+                                "COMP_SCI 111: Fundamentals of Computer Science I",
+                                "COMP_SCI 150: Fundamentals of Computer Science 1.5",
+                                "COMP_SCI 211: Fundamentals of Computer Science II",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Mathematics:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_SCI 212 - Mathematical Foundations of Computer Science I",
-                                "COMP_SCI 262 - Mathematical Foundations of Computer Science II",
+                                "COMP_SCI 212: Mathematical Foundations of Computer Science I",
+                                "COMP_SCI 262: Mathematical Foundations of Computer Science II",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Systems:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_ENG 203 - Introduction to Computer Engineering",
-                                "COMP_SCI 213 - Introduction to Computer Systems",
+                                "COMP_ENG 203: Introduction to Computer Engineering",
+                                "COMP_SCI 213: Introduction to Computer Systems",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Algorithms:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_SCI 214 - Data Structures and Algorithms",
-                                "COMP_SCI 336 - Design and Analysis of Algorithms",
+                                "COMP_SCI 214: Data Structures and Algorithms",
+                                "COMP_SCI 336: Design and Analysis of Algorithms",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Programming Languages:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_SCI 321 - Programming Languages",
-                                "COMP_SCI 424 - Dynamics of Programming Languages",
-                                "COMP_SCI 496 - Programming Languages Seminar",
+                                "COMP_SCI 321: Programming Languages",
+                                "COMP_SCI 424: Dynamics of Programming Languages",
+                                "COMP_SCI 496: Programming Languages Seminar",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Miscellaneous:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_SCI 348 - Artificial Intelligence",
-                                "COMP_SCI 396 - Foundations of Security",
+                                "COMP_SCI 348: Artificial Intelligence",
+                                "COMP_SCI 396: Foundations of Security",
                             ]}></BulletList>
                         </PlainText>
                         <SubSubHeading>
@@ -144,23 +144,23 @@ export default function EducationPage() {
                                 Engineering:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "GEN_ENG 205-1 - MATLAB and Linear Algebra",
-                                "GEN_ENG 205-2 - Statics",
-                                "GEN_ENG 205-3 - Dynamics",
+                                "GEN_ENG 205-1: MATLAB and Linear Algebra",
+                                "GEN_ENG 205-2: Statics",
+                                "GEN_ENG 205-3: Dynamics",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Mathematics:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "MATH 228-1 - Multivariable Differential Calculus",
+                                "MATH 228-1: Multivariable Differential Calculus",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Design:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "DSGN 106-1 - Design Thinking and Communication I",
-                                "DSGN 106-2 - Design Thinking and Communication II",
-                                "DSGN 220 - Design Sketching",
+                                "DSGN 106-1: Design Thinking and Communication I",
+                                "DSGN 106-2: Design Thinking and Communication II",
+                                "DSGN 220: Design Sketching",
                             ]}></BulletList>
                         </PlainText>
                     </ItemWindow>
