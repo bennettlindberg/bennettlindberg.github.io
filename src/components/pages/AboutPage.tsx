@@ -56,10 +56,10 @@ export default function AboutPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            Hi! I'm Bennett Lindberg, a full-stack software engineer who is passionate about streamlining procedures and improving lives through software. Always enthusiastic about building, designing, dissecting, and fiddling around with what's around me, I am an engineer at heart and a spirited programmer. Currently, I am an undergraduate Computer Science major at Northwestern University in the McCormick School of Engineering.
+                            Hi! I'm Bennett Lindberg, a full-stack software engineer who is passionate about constructing productive tools, streamlining procedures, and improving lives through software. Always enthusiastic about building, designing, and enhancing my work, I am a spirited engineer, programmer, and learner. Currently, I am an undergraduate Computer Science major at Northwestern University in the McCormick School of Engineering.
                         </PlainText>
                         <PlainText>
-                            I enjoy developing software applications for others to use, exploring new programming languages and technologies, and expanding my range of knowledge within the broader computer science field.
+                            I enjoy developing software applications for others to use, exploring new programming languages and technologies, and expanding my range of knowledge within the broader computer science field. I am often knee-deep reading through a textbook or technical documentation and would describe myself as focused, detail-attentive, and hard-working.
                         </PlainText>
                         <PlainText>
                             Outside of computer science and software development, I enjoy solving logic puzzles, playing card games, swimming, watching Formula One races, talking with friends, and learning new things. I also enjoy learning about geography and have a bucket list of places to which I'd like to travel!

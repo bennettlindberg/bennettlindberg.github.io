@@ -63,7 +63,7 @@ export default function HomePage() {
                             I'm Bennett Lindberg, and this is my website!
                         </PlainText>
                         <PlainText>
-                            I am an enthusiastic builder and tinkerer who is interested in tech and passionate about delivering real-world utility through software. Currently, I am an undergraduate student majoring in Computer Science at Northwestern University's McCormick School of Engineering.
+                            I am an enthusiastic builder and intellectually curious person who is interested in tech and passionate about delivering real-world utility through software. Currently, I am an undergraduate student majoring in Computer Science at Northwestern University's McCormick School of Engineering.
                         </PlainText>
                         <PlainText>
                             You can learn more about myself by looking at the following pages:
@@ -103,7 +103,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            See my teaching and software development work experience applicable to future roles to technology industries...
+                            See my teaching and software engineering work experience applicable to future roles in technology industries...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>
                             /experience
@@ -111,7 +111,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            View my education history and academic coursework related to software engineering and computer science...
+                            View my education history and academic coursework related to computer science, software development, engineering, and design...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/education");}}>
                             /education
