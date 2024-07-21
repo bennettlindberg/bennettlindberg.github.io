@@ -63,7 +63,7 @@ export default function HomePage() {
                             I'm Bennett Lindberg, and this is my website!
                         </PlainText>
                         <PlainText>
-                            I am an enthusiastic builder and intellectually curious person who is interested in tech and passionate about delivering real-world utility through software. Currently, I am an undergraduate student majoring in Computer Science at Northwestern University's McCormick School of Engineering.
+                            I am an enthusiastic builder and intellectually curious person who is interested in tech, software, and delivering real-world utility through my projects. Currently, I am an undergraduate student majoring in Computer Science at Northwestern University's McCormick School of Engineering.
                         </PlainText>
                         <PlainText>
                             You can learn more about myself by looking at the following pages:
