@@ -68,7 +68,7 @@ export default function SkillsPage() {
                 <ItemWindowContainer>
                     <ItemWindow standardWidth="1">
                         <Heading>
-                            Technical Skills
+                            General Programming Skills
                         </Heading>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
@@ -79,46 +79,143 @@ export default function SkillsPage() {
                             "C & C++",
                             "Java",
                             "Python",
-                            "JavaScript & TypeScript",
-                            "HTML & CSS",
+                            "JavaScript",
+                            "TypeScript",
                             "Racket",
-                            "x86 Assembly",
-                            "SQL",
                             "MATLAB",
+                            "x86 Assembly",
+                            "HTML & CSS",
+                            "SQL",
                             "LaTeX"
                         ]}></BulletList>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
                         <SubHeading>
-                            Technologies
+                            Programming Paradigms
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "Object-Oriented (OOP)",
+                            "Functional",
+                            "Reactive Streams",
+                            "Asynchronous",
+                            "Concurrency & Parallelism"
+                        ]}></BulletList>
+                    </ItemWindow>
+                </ItemWindowContainer>
+                <ItemWindowContainer>
+                    <ItemWindow standardWidth="1">
+                        <Heading>
+                            Application Development Skills
+                        </Heading>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            Front-End Technologies
                         </SubHeading>
                         <BulletList listElements={[
                             "React & React Router",
-                            "Spring Framework & Spring Boot",
-                            "Django & Django REST Framework",
                             "Angular",
-                            "Tailwind CSS",
-                            "Kafka",
-                            "PostgreSQL",
-                            "Docker",
-                            "Vite",
-                            "NextJS",
-                            "Axios",
-                            "Postman"
+                            "Tailwind CSS"
                         ]}></BulletList>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/3">
                         <SubHeading>
-                            Miscellaneous
+                            Back-End Technologies
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "Django",
+                            "Django REST Framework",
+                            "Spring & Spring Boot",
+                            "Object-Relational Mappings (ORMs)",
+                            "Database Schema Design",
+                            "PostgreSQL",
+                            "MongoDB"
+                        ]}></BulletList>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            General Technologies
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "RESTful API Development",
+                            "Session Tokens & JSON Web Tokens (JWTs)",
+                            "Kafka",
+                            "Docker & Podman",
+                            "Vite",
+                            "NextJS",
+                            "NodeJS",
+                            "Server-Sent Events",
+                            "Web Sockets"
+                        ]}></BulletList>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            Software Development Life Cycle
                         </SubHeading>
                         <BulletList listElements={[
                             "Agile Software Development",
                             "Git & GitHub",
-                            "Database Schema Design",
-                            "Object Relational Mappings (ORMs)",
-                            "RESTful API Development",
-                            "Reactive Programming",
-                            "Server-Sent Events"
+                            "GitHub Actions",
+                            "Continuous Integration/Continuous Delivery (CI/CD)"
+                        ]}></BulletList>
+                    </ItemWindow>
+                </ItemWindowContainer>
+                <ItemWindowContainer>
+                    <ItemWindow standardWidth="1">
+                        <Heading>
+                            Topic-Specific Skills
+                        </Heading>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            Mathematics
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "Differential & Integral Calculus",
+                            "Linear Algebra",
+                            "Probability Theory",
+                            "Combinatorics",
+                            "Graph Theory",
+                            "Data Visualization (MATLAB)"
+                        ]}></BulletList>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            Algorithms
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "Asymptotic Complexity",
+                            "Randomized Algorithms",
+                            "Greedy Algorithms",
+                            "Divide & Conquer Algorithms",
+                            "Dynamic Programming"
+                        ]}></BulletList>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            Cybersecurity
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "Threat Modeling",
+                            "Access Control",
+                            "Symmetric & Asymmetric Encryption",
+                            "Hashing & Salting",
+                            "Message Authentication Codes (MACs) & Digital Signatures",
+                            "SQL Injection Prevention",
+                            "Cross-Site Scripting (XSS) Prevention",
+                            "Content Security Policies (CSPs)"
+                        ]}></BulletList>
+                    </ItemWindow>
+                    <ItemWindow standardWidth="1/3">
+                        <SubHeading>
+                            Programming Languages
+                        </SubHeading>
+                        <BulletList listElements={[
+                            "Lambda Calculus",
+                            "Operational Semantics",
+                            "PLT Redex",
+                            "Parsers and Interpreters",
+                            "Garbage Collection"
                         ]}></BulletList>
                     </ItemWindow>
                 </ItemWindowContainer>

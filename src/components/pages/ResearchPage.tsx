@@ -95,7 +95,7 @@ export default function ResearchPage() {
                         </SubSubHeading>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
-                                <a href="https://github.com/ndh4/esterel-racket-watch" target="_blank">GitHub Repository</a>
+                                <a href="https://github.com/bennettlindberg/RacketEsterelWatch" target="_blank">GitHub Repository</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://www.researchgate.net/publication/43611052_Programming_a_digital_watch_in_Esterel_v3/link/0c96052e684f799530000000/download?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19" target="_blank">Original Esterel Watch Paper</a>
@@ -126,7 +126,7 @@ export default function ResearchPage() {
                             As part of COMP_SCI 424, a graduate-level Programming Languages course, I developed Clighter alongside Master's Degree student Jerry Lu. Clighter is implemented as a big-step operational semantics written in PLT Redex. PLT Redex is a language used for formally defining the syntax and mechanizing the evaluation of programming languages.
                         </PlainText>
                         <PlainText>
-                            The goal of writing Clighter was to gain hands-on experience writing an operational semantics and using PLT Redex. More concretely, we sought to match the behavior of C with Clighter by transpiling the operation semantics for Clight to PLT Redex. Rigorous testing informally demonstrated that our implementation matches the expected C behavior for all our targeted scenarios, which included branching, loops, pointers, structs, and several other interesting C features.
+                            The goal of writing Clighter was to gain hands-on experience writing an operational semantics and using PLT Redex. More concretely, we sought to match the behavior of C with Clighter by transpiling the operational semantics for Clight to PLT Redex. Rigorous testing informally demonstrated that our implementation matches the expected C behavior for all our targeted scenarios, which included branching, loops, pointers, structs, and several other interesting C features.
                         </PlainText>
                         <SubSubHeading>
                             Languages and Technologies:
@@ -142,7 +142,7 @@ export default function ResearchPage() {
                         </SubSubHeading>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
-                                <a href="https://github.com/Viyerelu23333/clighter-redex" target="_blank">GitHub Repository</a>
+                                <a href="https://github.com/bennettlindberg/Clighter" target="_blank">GitHub Repository</a>
                             </div>
                             <div className={`font-bold bg-gradient-to-tr from-orange-500 to-amber-300 hover:to-orange-500 hover:from-amber-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://link.springer.com/article/10.1007/s10817-009-9148-3" target="_blank">Clight Operational Semantics Paper</a>

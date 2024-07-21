@@ -3,8 +3,9 @@ export default function BulletList({ listElements }: { listElements: string[] })
         <>
             <ul>
                 {listElements.map(element =>
-                    <li className="pl-4 text-md font-normal text-slate-600 dark:text-slate-300">
-                        • {element}
+                    <li className="text-md font-normal text-slate-600 dark:text-slate-300 flex flex-row">
+                        <span className="px-2">•</span>
+                        {element}
                     </li>
                 )}
             </ul>
