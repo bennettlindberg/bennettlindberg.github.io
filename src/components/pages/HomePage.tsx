@@ -60,18 +60,15 @@ export default function HomePage() {
                             Hello!
                         </Heading>
                         <PlainText>
-                            I'm Bennett Lindberg, and this is my website!
+                            I'm Bennett Lindberg, an enthusiastic builder and intellectually-curious person who is interested in tech, software, and delivering real-world utility through code. Currently, I am an undergraduate student majoring in Computer Science at Northwestern University's McCormick School of Engineering.
                         </PlainText>
                         <PlainText>
-                            I am an enthusiastic builder and intellectually curious person who is interested in tech, software, and delivering real-world utility through my projects. Currently, I am an undergraduate student majoring in Computer Science at Northwestern University's McCormick School of Engineering.
-                        </PlainText>
-                        <PlainText>
-                            You can learn more about myself by looking at the following pages:
+                            Learn more by visiting the pages listed below.
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            Learn general information about my interests inside and outside of technology and academia...
+                            Learn about my interests inside and outside of technology and academia...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr from-green-500 to-lime-400 hover:to-green-500 hover:from-lime-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/about");}}>
                             /about
@@ -79,7 +76,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            Look at a list of the technical skills I have obtained through academic work, independent study, and previous technical roles...
+                            View my technical skills obtained from work, school, and independent study...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr from-orange-600 to-red-300 hover:to-orange-600 hover:from-red-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/skills");}}>
                             /skills
@@ -87,7 +84,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            Interact with past and in-progress works of mine related to software engineering and computer science...
+                            See my past and in-progress design and software engineering projects...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/projects");}}>
                             /projects
@@ -95,7 +92,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            Read my published computer science research and explore previous research-adjacent works of mine...
+                            Explore previous research and research-adjacent works of mine...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr to-emerald-400 from-teal-600 hover:from-emerald-400 hover:to-teal-600 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/research");}}>
                             /research
@@ -103,7 +100,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            See my teaching and software engineering work experience applicable to future roles in technology industries...
+                            View my teaching and software engineering work experience...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr from-red-600 to-pink-400 hover:to-red-600 hover:from-pink-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/experience");}}>
                             /experience
@@ -111,7 +108,7 @@ export default function HomePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
                         <PlainText>
-                            View my education history and academic coursework related to computer science, software development, engineering, and design...
+                            Read about my education history and academic coursework...
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => {window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/education");}}>
                             /education

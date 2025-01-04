@@ -56,13 +56,13 @@ export default function AboutPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            Hi! I'm Bennett Lindberg, a full-stack software engineer who is passionate about improving lives by constructing productive tools and streamlining procedures. Always enthusiastic about building, designing, and enhancing my work, I am a spirited engineer, programmer, and learner. Currently, I am an undergraduate Computer Science major at Northwestern University in the McCormick School of Engineering.
+                            Hi! I'm Bennett Lindberg, a full-stack software engineer who is passionate about improving lives by constructing productive tools and streamlining procedures. Currently, I am an undergraduate Computer Science major at Northwestern University in the McCormick School of Engineering. This summer, I will be joining Motorola Solutions' Secure Products Group as a full-time Software Engineer.
                         </PlainText>
                         <PlainText>
-                            I enjoy developing software applications for others to use, exploring new programming languages and technologies, and expanding my range of knowledge within the broader computer science field. I am often knee-deep reading through a textbook or technical documentation and would describe myself as focused, detail-attentive, and hard-working.
+                            I enjoy developing software applications for others to use, exploring new programming languages and technologies, and expanding my knowledge within the broader computer science field. I am focused, detail-attentive, and hard-working.
                         </PlainText>
                         <PlainText>
-                            Outside of computer science and software development, I enjoy solving logic puzzles, playing card games, swimming, watching Formula 1 races, talking with friends, and learning new things. I also enjoy learning about geography and have a bucket list of places to which I'd like to travel!
+                            Outside of computer science and software development, I enjoy creating digital art, watching Formula 1 races, playing card games, going to the gym, and learning new things. I am also interested in design, architecture, and geography, and I have a bucket list of places to which I'd like to travel.
                         </PlainText>
                     </ItemWindow>
                     <ItemWindow standardWidth="1/2">
@@ -70,7 +70,7 @@ export default function AboutPage() {
                             Contact Me
                         </SubHeading>
                         <PlainText>
-                            Feel free to contact me directly on LinkedIn or via the contact information associated with my LinkedIn profile!
+                            Feel free to contact me directly on LinkedIn or via the contact information associated with my LinkedIn profile.
                         </PlainText>
                         <div className={`font-bold bg-gradient-to-tr to-blue-400 from-blue-700 hover:from-blue-400 hover:to-blue-700 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                             <a href="https://www.linkedin.com/in/bennett-lindberg/" target="_blank">LinkedIn</a>
@@ -81,7 +81,7 @@ export default function AboutPage() {
                             Learn More
                         </SubHeading>
                         <PlainText>
-                            Visit the other pages of this site to learn more about myself or view my GitHub profile!
+                            Visit the other pages of this site to learn more about myself or view my GitHub profile.
                         </PlainText>
                         <div className="flex flex-row gap-x-2 flex-wrap">
                             <div className={`font-bold bg-gradient-to-tr from-orange-600 to-red-300 hover:to-orange-600 hover:from-red-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`} onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); navigate("/skills"); }}>

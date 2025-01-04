@@ -103,10 +103,10 @@ export default function ExperiencePage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            This summer, I am working at Motorola Solutions as a Software Engineering Intern. Alongside my co-workers in the Secure Products Group at Motorola Solutions, I develop full-stack applications that help ensure critical communications are safe and secure.
+                            During the 2024 Summer, I worked at Motorola Solutions as a Software Engineering Intern with the Secure Products Group. I developed full-stack applications that ensure safe and secure critical communications.
                         </PlainText>
                         <PlainText>
-                            During my time at Motorola Solutions, I have worked in an Agile software development environment using a variety of technologies and paradigms, including Reactive Programming, Angular front-end development, Spring Boot application development, Apache Kafka high-volume messaging, and REST API development involving Server-Sent Events.
+                            During my internship, I worked in an Agile software development environment using a variety of technologies and paradigms, including Reactive Programming, Angular, Spring Boot, Apache Kafka, REST APIs, CI/CD pipelines, and PostgreSQL.
                         </PlainText>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
                             <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
@@ -123,19 +123,20 @@ export default function ExperiencePage() {
                                 Northwestern University
                             </SubHeading>
                             <PlainText>
-                                Computer Science Department Peer Mentor • January-June 2024
+                                Computer Science Department Peer Mentor • January 2024-Present
                             </PlainText>
                         </div>
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            I currently work as a Peer Mentor in the Computer Science Department at Northwestern University. In this role, I have functioned as an undergraduate teaching assistant for several of the department's courses. My responsibilities include answering student questions, hosting office hours, and grading assignments and exams.
+                            I currently work as a Peer Mentor in the Computer Science Department at Northwestern University. In this role, I have functioned as an undergraduate teaching assistant for several of the department's courses. My responsibilities include hosting office hours, grading assignments and exams, and authoring new problem sets.
                         </PlainText>
                         <PlainText>
                             I have assisted with teaching the following courses: 
                             <BulletList listElements={[
                                 "COMP_SCI 214: Data Structures and Algorithms (Winter 2024)",
-                                "COMP_SCI 396: Foundations of Security (Spring 2024)"
+                                "COMP_SCI 396: Foundations of Security (Spring 2024)",
+                                "COMP_SCI 321: Programming Languages (Fall 2024, Winter 2025)",
                             ]}></BulletList>
                         </PlainText>
                         <PlainText>

@@ -75,16 +75,17 @@ export default function EducationPage() {
                     </ItemWindow>
                     <ItemWindow standardWidth="2/3">
                         <PlainText>
-                            Currently, I am completing my B.S. in Computer Science at Northwestern University in the McCormick School of Engineering. I am projected to finish my bachelor's degree in three years. At Northwestern, I have served as a Peer Mentor for several courses in the CS Department and achieved High Honors during my Fall 2022, Winter 2023, Spring 2023, Fall 2023, Winter 2024, and Spring 2024 quarters.
+                            Currently, I am completing my B.S. in Computer Science at Northwestern University in the McCormick School of Engineering. I am projected to finish my bachelor's degree in three years. At Northwestern, I have served as a Peer Mentor for several courses in the CS Department and achieved High Honors during my Fall 2022, Winter 2023, Spring 2023, Fall 2023, Winter 2024, Spring 2024, and Fall 2024 quarters.
                         </PlainText>
                         <SubSubHeading>
-                            Upcoming Coursework (Fall 2024):
+                            Upcoming Coursework (Winter 2025):
                         </SubSubHeading>
                         <PlainText>
                             <BulletList listElements={[
-                                "COMP_SCI 298: Computer Science Research Track",
-                                "COMP_SCI 330: Human-Computer Interaction",
-                                "COMP_SCI 343: Operating Systems",
+                                "COMP_SCI 310: Scalable Software Architectures",
+                                "COMP_SCI 340: Introduction to Computer Networking",
+                                "COMP_SCI 398: Research Track II (Programming Languages)",
+                                "COMP_SCI 496: Programming Languages Seminar (Winter 2025)",
                             ]}></BulletList>
                         </PlainText>
                         <SubSubHeading>
@@ -103,8 +104,8 @@ export default function EducationPage() {
                                 Mathematics:
                             </BulletGroupHeader>
                             <BulletList listElements={[
-                                "COMP_SCI 212: Mathematical Foundations of Computer Science I",
-                                "COMP_SCI 262: Mathematical Foundations of Computer Science II",
+                                "COMP_SCI 212: Formal Proof, Discrete Math, and Graph Theory",
+                                "COMP_SCI 262: Probability and Linear Algebra",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Systems:
@@ -112,6 +113,7 @@ export default function EducationPage() {
                             <BulletList listElements={[
                                 "COMP_ENG 203: Introduction to Computer Engineering",
                                 "COMP_SCI 213: Introduction to Computer Systems",
+                                "COMP_SCI 343: Operating Systems",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Algorithms:
@@ -124,14 +126,16 @@ export default function EducationPage() {
                                 Programming Languages:
                             </BulletGroupHeader>
                             <BulletList listElements={[
+                                "COMP_SCI 298: Research Track I (Programming Languages)",
                                 "COMP_SCI 321: Programming Languages",
                                 "COMP_SCI 424: Dynamics of Programming Languages",
-                                "COMP_SCI 496: Programming Languages Seminar",
+                                "COMP_SCI 496: Programming Languages Seminar (Spring 2024)",
                             ]}></BulletList>
                             <BulletGroupHeader>
                                 Miscellaneous:
                             </BulletGroupHeader>
                             <BulletList listElements={[
+                                "COMP_SCI 330: Human-Computer Interaction",
                                 "COMP_SCI 348: Artificial Intelligence",
                                 "COMP_SCI 396: Foundations of Security",
                             ]}></BulletList>
@@ -161,6 +165,13 @@ export default function EducationPage() {
                                 "DSGN 106-1: Design Thinking and Communication I",
                                 "DSGN 106-2: Design Thinking and Communication II",
                                 "DSGN 220: Design Sketching",
+                            ]}></BulletList>
+                            <BulletGroupHeader>
+                                Art:
+                            </BulletGroupHeader>
+                            <BulletList listElements={[
+                                "ART 210: Introduction to Drawing",
+                                "ART 220: Introduction to Painting",
                             ]}></BulletList>
                         </PlainText>
                     </ItemWindow>

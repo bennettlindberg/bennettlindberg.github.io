@@ -105,9 +105,6 @@ export default function ProjectsPage() {
                             Learn More:
                         </SubSubHeading>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr to-teal-400 from-blue-500 hover:from-teal-400 hover:to-blue-500 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
-                                <a href="https://swimeeter.com" target="_blank">Live Website</a>
-                            </div>
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://github.com/bennettlindberg/Swimeeter" target="_blank">GitHub Repository</a>
                             </div>
@@ -153,9 +150,6 @@ export default function ProjectsPage() {
                             Learn More:
                         </SubSubHeading>
                         <div className="flex flex-row flex-wrap gap-x-2 mt-2">
-                            <div className={`font-bold bg-gradient-to-tr from-violet-700 to-indigo-400 hover:to-violet-700 hover:from-indigo-400 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
-                                <a href="https://safesecuritynu.com" target="_blank">Live Website</a>
-                            </div>
                             <div className={`font-bold bg-gradient-to-tr from-gray-500 to-slate-300 hover:to-gray-500 hover:from-slate-300 rounded-xl p-3 mb-2 w-fit shadow-2xl dark:shadow-gray-900`}>
                                 <a href="https://github.com/SafeSecurityNU/safesecuritynu.github.io" target="_blank">GitHub Repository</a>
                             </div>
