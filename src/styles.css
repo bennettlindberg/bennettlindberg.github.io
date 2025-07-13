@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+/* Enable Dark Mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Font Styles */
+.archivo-regular {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 115;
+}
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Animation Appear */
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.appear {
+    animation: appear 0.5s ease-in-out forwards;
+}
+
+/* Animation Marquee */
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-5from);
+    }
+}
+.marquee {
+    animation: marquee 20s linear infinite;
+}
+
+/* Animation Sliding Underline */
+@keyframes slidingUnderline {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 40px;
+    }
+}
+.sliding-underline {
+    animation: slidingUnderline 0.5s ease-in-out forwards;
+}
+
+/* Animation Sliding Dash Right */
+@keyframes slidingDashFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.sliding-dash-from-right {
+    animation: slidingDashFromRight 0.5s ease-in-out forwards;
+}
+
+/* Animation Sliding Dash Left */
+@keyframes slidingDashFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.sliding-dash-from-left {
+    animation: slidingDashFromLeft 0.5s ease-in-out forwards;
+}
+
+/* Animation Slide In Right */
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.mobile-menu-enter-1 {
+    animation: slideInFromRight 0.1s ease-out forwards;
+}
+.mobile-menu-enter-2 {
+    animation: slideInFromRight 0.15s ease-out forwards;
+}
+.mobile-menu-enter-3 {
+    animation: slideInFromRight 0.2s ease-out forwards;
+}
+.mobile-menu-enter-4 {
+    animation: slideInFromRight 0.25s ease-out forwards;
+}
+.mobile-menu-enter-5 {
+    animation: slideInFromRight 0.3s ease-out forwards;
+}
+.mobile-menu-enter-6 {
+    animation: slideInFromRight 0.35s ease-out forwards;
+}
+
+/* Animation Slide Out Right */
+@keyframes slideOutToRight {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+.mobile-menu-exit-1 {
+    animation: slideOutToRight 0.1s ease-in forwards;
+}
+.mobile-menu-exit-2 {
+    animation: slideOutToRight 0.15s ease-in forwards;
+}
+.mobile-menu-exit-3 {
+    animation: slideOutToRight 0.2s ease-in forwards;
+}
+.mobile-menu-exit-4 {
+    animation: slideOutToRight 0.25s ease-in forwards;
+}
+.mobile-menu-exit-5 {
+    animation: slideOutToRight 0.3s ease-in forwards;
+}
+.mobile-menu-exit-6 {
+    animation: slideOutToRight 0.35s ease-in forwards;
+}
